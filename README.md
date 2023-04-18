@@ -34,7 +34,7 @@ It contains the annotations.json file and the images.zip
 2. Run till the '2. Run Mask-RCNN on Images'.
 3. Drag and drop the '.h5' model and update the path of 'load_inference_model(1, "/path/to/model.h5") and upload an image to test your dataset and update the path of img = cv2.imread("/path/img.jpg")
 
-![](https://github.com/gSayak/clock_detection/blob/main/readme_images/clock_test.png) 
+![](https://github.com/gSayak/clock_detection/blob/main/readme_images/clock_test.jpg) 
 
 4. Run the following cells and you will get the masked picture of your clock.
 
