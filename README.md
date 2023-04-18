@@ -15,16 +15,21 @@ It contains the annotations.json file and the images.zip
 2. Connect the collab to a runtime and change the runtime type to GPU. (runtime -> runtime type ->hardware acclerator -> GPU)
 3. Upload the annotations.json and the images.zip to the collab either using drag and drop or by uploading it to your drive and connecting the drive to the notebook.
 4. In the notebook, go to the '2. Image Dataset' code and in the cell update the 'images_path' and the 'annotations_path' with the path of the images.zip and the annotations.zip respectively.
+
+
    ![](https://github.com/gSayak/clock_detection/blob/main/readme_images/clock_annotations.png)
    ![](https://github.com/gSayak/clock_detection/blob/main/readme_images/clock_annotations2.png)
    ![](https://github.com/gSayak/clock_detection/blob/main/readme_images/clock_annotations3.png)
    ![](https://github.com/gSayak/clock_detection/blob/main/readme_images/clock_annotations4.png)
 
+
 5. Next keep running the respective cells and then wait for the 5 epochs to run which might take some time.
 6. In the '4. Detection' you'll see two images, first one which is the result of the training of our model on the custom-dataset and the next one is the annotated result of the dataset.
 
+
 ![](https://github.com/gSayak/clock_detection/blob/main/readme_images/clock1.png)
 ![](https://github.com/gSayak/clock_detection/blob/main/readme_images/clock2.png)
+
 
 7. Running it multiple times, random images will be tested from the dataset.
 
