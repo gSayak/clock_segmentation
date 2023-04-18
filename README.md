@@ -1,15 +1,15 @@
-#Clock Detection using Mask R-CNN
+<h1>Clock Detection using Mask R-CNN</h1>
 
 This project uses Mask R-CNN to detect clocks in images. The model is trained on a custom dataset and can accurately detect clocks in various settings.
 
-#Dataset
+<h2>Dataset</h2>
 The dataset used for this project consists of 128 images of clocks, along with their respective annotations. The images were sourced from various websites and were manually annotated using MakeSense.ai.
 
 The dataset can be found in the dataset directory of this repository.
 
 It contains the annotations.json file and the images.zip
 
-#Steps to run the code
+<h2>Steps to run the code</h2>
 
 1. Load the 'clock-detection.ipynb' in the google collab.
 2. Connect the collab to a runtime and change the runtime type to GPU. (runtime -> runtime type ->hardware acclerator -> GPU)
@@ -28,12 +28,14 @@ It contains the annotations.json file and the images.zip
 
 7. Running it multiple times, random images will be tested from the dataset.
 
-#Steps to run the code on your own trained model
+<h2>Steps to run the code on your own trained model</h2>
 
 1. From the previous steps go to Mask_RCNN -> logs -> object-name and download the mask_rcnn_object_0005.h5.
 2. Run till the '2. Run Mask-RCNN on Images'.
 3. Drag and drop the '.h5' model and update the path of 'load_inference_model(1, "/path/to/model.h5") and upload an image to test your dataset and update the path of img = cv2.imread("/path/img.jpg")
 
-![](https://github.com/gSayak/clock_detection/blob/main/readme_images/clock_test.png) 4. Run the following cells and you will get the masked picture of your clock.
+![](https://github.com/gSayak/clock_detection/blob/main/readme_images/clock_test.png) 
+
+4. Run the following cells and you will get the masked picture of your clock.
 
 ![](https://github.com/gSayak/clock_detection/blob/main/readme_images/clock_test2.png)
