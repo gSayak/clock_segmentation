@@ -1,6 +1,6 @@
-<h1>Clock Detection using Mask R-CNN</h1>
+<h1>Clock Segmentation using Mask R-CNN</h1>
 
-This project uses Mask R-CNN to detect clocks in images. The model is trained on a custom dataset and can accurately detect clocks in various settings.
+This project uses Mask R-CNN to detect clocks in images and segment them. The model is trained on a custom dataset and can accurately detect clocks in various settings.
 
 <h2>Dataset</h2>
 The dataset used for this project consists of 128 images of clocks, along with their respective annotations. The images were sourced from various websites and were manually annotated using MakeSense.ai.
